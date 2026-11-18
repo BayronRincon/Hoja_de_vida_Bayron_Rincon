@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hoja de vida web de Nombre Apellido, Ingeniería de Software">
+  <title>Bayron Rincon | Hoja de vida</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <header class="navbar">
+    <div class="contenedor">
+      <a href="index.html" class="logo">BayronR<span>.dev</span></a>
+      <button class="btn-menu" id="btn-menu" aria-label="Abrir menú">☰</button>
+      <ul class="menu" id="menu">
+        <li><a href="index.html" class="activo">Inicio</a></li>
+        <li><a href="estudios.html">Estudios</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><button class="btn-tema" id="btn-tema" aria-label="Cambiar tema">☀️</button></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== PORTADA ===== -->
+    <section class="hero">
+      <div class="contenedor">
+        <div>
+          <span class="etiqueta">Ingeniería de Software</span>
+          <h1>Hola, soy <span class="resaltado">Bayron Rincon</span></h1>
+          <p>
+            Tengo 20 años soy estudiante de <strong>Ingeniería de Software</strong> apasionado por crear
+            automatizaciones <em>limpias</em>, funcionales y agradables para el usuario. 
+            Me encanta el mundo de la tecnologia y desarrollo de procesos ademas de apacionarme 
+            a explorar y aprender nuevos conocimientos sobre este gran mundo del software.
+            Busco una oportunidad para aprender y aportar en un equipo de desarrollo.
+          </p>
+          <div class="botones">
+            <a href="experiencia.html" class="btn btn-primario">Ver experiencia</a>
+            <a href="contacto.html" class="btn btn-secundario">Contáctame</a>
+          </div>
+        </div>
+        <div class="foto-contenedor">
+          <img src="img/foto.svg" alt="Foto de perfil de Nombre Apellido" class="foto">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE MÍ ===== -->
+    <section>
+      <div class="contenedor oculto">
+        <h2 class="titulo-seccion">Sobre mí</h2>
+        <p class="subtitulo-seccion">Un poco de mi perfil personal y profesional.</p>
+
+        <div class="rejilla">
+          <div class="tarjeta">
+            <div class="icono">👤</div>
+            <h3>Datos personales</h3>
+            <p><b>Edad:</b> 20 años<br><b>Ciudad:</b> Bogotá, Colombia<br><b>Idiomas:</b> Español (nativo),<br><b>Tabajo:</b> Desarrollador de automatizaciones.</p>
+          </div>
+          <div class="tarjeta">
+            <div class="icono">🎓</div>
+            <h3>Perfil académico</h3>
+            <p>-Cursando Ingeniería de Software en la <i>Fundación Universitaria Compensar<br>
+            -Tecnico en introduccion a la ingenieria de software<br>
+            -Certficaciones de Rocketbot, automation, azure, Base de datos, Java Script y Java</i>.</p>
+          </div>
+          <div class="tarjeta">
+            <div class="icono">🎯</div>
+            <h3>Objetivo</h3>
+            <p>Convertirme en desarrollador full stack y trabajar en proyectos con impacto real.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ESTADÍSTICAS ===== -->
+    <section>
+      <div class="contenedor oculto">
+        <div class="tarjeta">
+          <div class="estadisticas">
+            <div><strong data-contador="5">0</strong><span>Semestres cursados</span></div>
+            <div><strong data-contador="30">0</strong><span>Proyectos realizados</span></div>
+            <div><strong data-contador="8">0</strong><span>Tecnologías</span></div>
+            <div><strong data-contador="10">0</strong><span>Certificaciones</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HABILIDADES ===== -->
+    <section>
+      <div class="contenedor oculto">
+        <h2 class="titulo-seccion">Habilidades</h2>
+        <p class="subtitulo-seccion">Lo que he aprendido y practico a diario.</p>
+
+        <div class="dos-columnas">
+          <div>
+            <div class="habilidad">
+              <div class="habilidad-info"><span>Rocketbot</span><span>90%</span></div>
+              <div class="barra"><div class="barra-relleno" data-nivel="90"></div></div>
+            </div>
+            <div class="habilidad">
+              <div class="habilidad-info"><span>Base de datos SQL</span><span>80%</span></div>
+              <div class="barra"><div class="barra-relleno" data-nivel="80"></div></div>
+            </div>
+            <div class="habilidad">
+              <div class="habilidad-info"><span>HTML,CSS,JS</span><span>70%</span></div>
+              <div class="barra"><div class="barra-relleno" data-nivel="70"></div></div>
+            </div>
+            <div class="habilidad">
+              <div class="habilidad-info"><span>Python</span><span>75%</span></div>
+              <div class="barra"><div class="barra-relleno" data-nivel="75"></div></div>
+            </div>
+          </div>
+          <div>
+            <h3 style="margin-bottom:14px;">Habilidades blandas</h3>
+            <div class="chips">
+              <span class="chip">Trabajo en equipo</span>
+              <span class="chip">Comunicación</span>
+              <span class="chip">Resolución de problemas</span>
+              <span class="chip">Aprendizaje rápido</span>
+              <span class="chip">Responsabilidad</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      <p>
+        <a href="index.html">Inicio</a>·<a href="estudios.html">Estudios</a>·<a href="experiencia.html">Experiencia</a>·<a href="contacto.html">Contacto</a>
+      </p>
+      <p>© <span id="anio"></span> Bayron Rincon Pelayo.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

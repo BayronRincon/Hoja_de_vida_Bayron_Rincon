@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estudios | Bayron Rincon</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="contenedor">
+      <a href="index.html" class="logo">BayronR<span>.dev</span></a>
+      <button class="btn-menu" id="btn-menu" aria-label="Abrir menú">☰</button>
+      <ul class="menu" id="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="estudios.html" class="activo">Estudios</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><button class="btn-tema" id="btn-tema" aria-label="Cambiar tema">☀️</button></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="contenedor">
+        <span class="etiqueta">Formación</span>
+        <h1 class="titulo-seccion" style="font-size:2.6rem;">Estudios y certificaciones</h1>
+        <p class="subtitulo-seccion">Mi recorrido académico hasta hoy.</p>
+
+        <!-- TABLA DE ESTUDIOS -->
+        <div class="tabla-contenedor oculto">
+          <table>
+            <caption>Formación académica</caption>
+            <thead>
+              <tr>
+                <th>Título</th>
+                <th>Institución</th>
+                <th>Periodo</th>
+                <th>Estado</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ingeniería de Software</td>
+                <td>Fundación Universitaria Compensar</td>
+                <td>2026 - Actualidad</td>
+                <td>En curso</td>
+              </tr>
+              <tr>
+                <td>Bachiller media tecnica en especialidad de sistemas</td>
+                <td>Tomas Carrasquilla</td>
+                <td>2012 - 2023</td>
+                <td>Graduado</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <br><br>
+
+        <!-- TABLA DE CURSOS -->
+        <div class="tabla-contenedor oculto">
+          <table>
+            <caption>Cursos y certificaciones</caption>
+            <thead>
+              <tr>
+                <th>Curso</th>
+                <th>Plataforma</th>
+                <th>Año</th>
+                <th>Horas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Base de datos Oracle Desing</td>
+                <td>UCompensar</td>
+                <td>2026</td>
+                <td>70</td>
+              </tr>
+              <tr>
+                <td>Rocketbot</td>
+                <td>Plataforma en línea</td>
+                <td>2025</td>
+                <td>48</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>UCompensar</td>
+                <td>2026</td>
+                <td>90</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="contenedor oculto">
+        <h2 class="titulo-seccion">Tecnologías que estudio</h2>
+        <p class="subtitulo-seccion">Herramientas con las que trabajo en mi carrera.</p>
+        <div class="chips">
+          <span class="chip">HTML5</span>
+          <span class="chip">CSS3</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">Python</span>
+          <span class="chip">Java</span>
+          <span class="chip">SQL</span>
+          <span class="chip">Git</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      <p>
+        <a href="index.html">Inicio</a>·<a href="estudios.html">Estudios</a>·<a href="experiencia.html">Experiencia</a>·<a href="contacto.html">Contacto</a>
+      </p>
+      <p>© <span id="anio"></span> Bayron Rincon.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

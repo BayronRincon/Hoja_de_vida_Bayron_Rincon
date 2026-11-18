@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Bayron Rincon</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="contenedor">
+      <a href="index.html" class="logo">BayronR<span>.dev</span></a>
+      <button class="btn-menu" id="btn-menu" aria-label="Abrir menú">☰</button>
+      <ul class="menu" id="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="estudios.html">Estudios</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+        <li><a href="contacto.html" class="activo">Contacto</a></li>
+        <li><button class="btn-tema" id="btn-tema" aria-label="Cambiar tema">☀️</button></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="contenedor">
+        <span class="etiqueta">Hablemos</span>
+        <h1 class="titulo-seccion" style="font-size:2.6rem;">Contacto</h1>
+        <p class="subtitulo-seccion">¿Tienes una oportunidad o quieres saber más de mí? Escríbeme.</p>
+
+        <div class="dos-columnas">
+          <div class="tarjeta oculto">
+            <h3 style="margin-bottom:16px;">Datos de contacto</h3>
+            <ul class="lista-contacto">
+              <li>📧 <a href="mailto:correo@ejemplo.com">bstivenrincon@ucompensar.edu.co</a></li>
+              <li>📱 +57 111 1111111</li>
+              <li>📍 Bogotá, Colombia</li>
+              <li>💻 <a href="https://github.com/BayronRincon" target="_blank" rel="noopener">github.com/Bayron Rincon</a></li>
+            </ul>
+          </div>
+
+          <!-- FORMULARIO (validado con JavaScript) -->
+          <form class="formulario oculto" id="form-contacto" method="post" novalidate>
+            <div class="campo">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+              <div class="error" id="error-nombre"></div>
+            </div>
+            <div class="campo">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com">
+              <div class="error" id="error-correo"></div>
+            </div>
+            <div class="campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje..."></textarea>
+              <div class="error" id="error-mensaje"></div>
+            </div>
+            <button type="submit" class="btn btn-primario">Enviar mensaje</button>
+            <div class="mensaje-ok" id="mensaje-ok">✔ ¡Mensaje validado correctamente!</div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      <p>
+        <a href="index.html">Inicio</a>·<a href="estudios.html">Estudios</a>·<a href="experiencia.html">Experiencia</a>·<a href="contacto.html">Contacto</a>
+      </p>
+      <p>© <span id="anio"></span> Bayron Rincon</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
